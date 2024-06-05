@@ -5,8 +5,8 @@ import entities.Employee;
 public class SalaryService  {
 
 
-   private TaxService taxService;
-   private PensionService pensionService;
+    private TaxService taxService;
+    private PensionService pensionService;
 
 
     public SalaryService( TaxService taxService, PensionService pensionService) {
